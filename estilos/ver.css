@@ -1,0 +1,119 @@
+body{
+    background-image: url("../imagenes/fondo2.jpg");
+    font-family: 'Quicksand', sans-serif;
+    background-size: 100% ,100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{text-align:center;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.menu { 
+    width: 28.5%;
+    margin: auto;
+    padding: 0px;
+    
+}
+
+.menu ul{
+    background-color: rgba(160, 81, 45, 0.342);
+    list-style: none; 
+    padding: 0px;
+    text-align: center;
+}
+.menu ul li a{ 
+    text-decoration: none;
+    color: seashell;
+    font-size: 25px;
+    display: block;
+    padding: 20px;
+
+}
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: rgb(252, 97, 77);
+
+}
+a{
+    text-decoration: none;
+}
+.lector{
+
+    height: 300px;
+    width: 800px;
+    background-color: rgba(237, 255, 71, 0.205);
+    margin: auto;
+    border-radius: 1px;
+}
+.lector p{
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    align-items: center;
+    
+}
+
+h2 a{
+
+    color: white;
+    font-size: 30px;
+}
+.btnAux {
+    display: flex;
+    margin: auto;
+   
+    width: 80%;
+}
+
+.title{
+
+  position: relative;
+  left: 100px;
+  margin: 50px;
+
+}
+
+
+.btnRadio{
+    color: white;
+    font-size:35px;
+    position: relative;
+    left: 280px;
+}
+
+.contenedor{
+    margin: auto;
+    height: 400px;
+    width: 600px;
+
+   
+}
+
+.salir{
+
+    height: 400px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin: auto;
+    text-align: center;
+
+}
+.salir img{
+    padding: 15px;
+    
+}
+.salir a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 130px;
+    color: wheat;
+
+}

@@ -1,0 +1,201 @@
+body{
+    background-image: url("../imagenes/fondo2.jpg");
+    font-family: 'Quicksand', sans-serif;
+    background-size: 100% ,100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{text-align:center;
+    color: white;
+    font-size: 40px;
+}
+
+.menu { 
+    width: 28.5%;
+    margin: auto;
+    padding: 0px;
+    
+}
+
+.menu ul{
+    background-color: rgba(160, 81, 45, 0.342);
+    list-style: none; 
+    padding: 0px;
+    text-align: center;
+}
+.menu ul li a{ 
+    
+    text-decoration: none;
+    color: seashell;
+    font-size: 25px;
+    display: block;
+    padding: 20px;
+
+}
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a:hover{
+    background: rgb(252, 97, 77);
+
+}
+
+
+
+.contenedor {
+    
+    width: 90%;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.contenedor2{
+
+    width: 90%;
+    height: 200px;
+    margin:  auto;
+    display: flex;
+    
+}
+.hijo{
+    background: rgb(82, 81, 81);
+    width: 250px;
+    height: 150px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+ 
+.hijo p{
+    
+    font-size: 15px;
+    position: relative;
+    top: -70px;
+    color: cornsilk;
+  
+
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+
+
+}
+.hijo h3{
+  
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+}
+
+.inicio {
+
+    background: rgba(255, 255, 255, 0);
+ 
+    color: cornsilk;
+    font-size: 70px;
+
+}
+.buscar{
+
+ text-align: center;
+color: white;
+font-size:25px;
+
+}
+.buscar input{
+
+    border-radius: 2px;
+}
+
+footer{
+
+    width:100%;
+    height: 150px;
+
+}
+.add  {
+
+    width: 90%;
+    height: 200px;
+    margin:  auto;
+    display: flex;
+    
+}
+
+.hijo2{ 
+
+   
+    width: 400px;
+    height: 150px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.hijo2 h3{
+  
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+}
+.inicio2 {
+
+    background: rgba(255, 255, 255, 0);
+ 
+    color: cornsilk;
+    font-size: 70px;
+
+}
+.hijo2 input{
+
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 50px;
+
+}
+
+.entrada {
+  text-align: center;
+
+}
+.entrada2 input {
+    background-color: rgba(247, 165, 247, 0.295);
+    height: 300px;
+    width: 700px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.btnAdd input{
+    background-color: rgb(255, 193, 252);
+    padding: 10px;
+    border-radius: 2px;
+    font-family: 'Quicksand', sans-serif;
+    height: 40px;
+    width: 150px;
+
+}
+
+.btnRadio{
+    color: white;
+    font-size:35px;
+    position: relative;
+    top: auto;
+}
+
+

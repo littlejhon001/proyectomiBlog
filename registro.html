@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="validacion.js"></script>
+    <title>Recover</title>
+</head>
+<body>
+
+    <div class="formulario" >
+        
+        <form action="">
+            <div class="cabecera">
+
+            <h2>Sign Up</h2>
+                <a href="index.html">
+                    <img src="imagenes/registro2.png" alt="" height="150px">
+                </a>
+            </div>
+
+            <div class="usuario"> 
+            <h3>Email</h3>
+            <input type="email" placeholder="Em@il" required id="correo">
+            </div>
+
+            <div class="pass">
+            <h3> Password</h3>
+            <input type="password" placeholder="enter password" id="nuevaContraseña">
+            </div>
+            
+            <div class="pass">
+                <h3>Confirm Password</h3>
+                <input type="password" placeholder="repeat password" id="repetirContraseña">
+            </div>
+
+            <div class="btn2">
+                <input type="button" value="Sign up" onclick="validarRegistro();">
+            </div>
+
+        </form>
+
+        <a id="regresar" href="index.html">
+            <img src="imagenes/BACK.png" alt="" height="40px">
+        </a>
+    </div>
+    <script src="validacion.js"></script>
+    
+</body>
+</html>

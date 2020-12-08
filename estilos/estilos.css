@@ -1,0 +1,124 @@
+body{
+    background-image: url("/imagenes/fondo2.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+    background-size: 100%,100% ;
+    background-attachment: fixed;
+}
+
+h2{font-size: 27px;}
+
+.formulario{
+
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    background-color:#8d848471;
+    text-align: center;
+    position: relative;
+    top: 55px;
+    color: #EFEFEF;
+    
+    
+}
+
+form {
+
+    margin: auto;
+    position: relative;
+    
+
+}
+    
+form input {
+    
+    background-color: cornsilk;
+    position: relative;
+    text-align: center;
+
+}
+
+.btn input{
+    background-color: #3193f3;
+    width: 70px;
+    padding: 5px;
+    position: relative;
+    top:px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.btn2 input{
+    background-color: #3193f3;
+    width: 70px;
+    padding: 5px;
+    position: relative;
+    top:30px;
+    font-family: 'Quicksand', sans-serif;
+    left:180px;
+    color: white;
+}
+.btn3 input{
+    background-color: #3193f3;
+    padding: 10px;
+    position: relative;
+    top:83px;
+    font-family: 'Quicksand', sans-serif;
+    left:130px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.cabecera{
+    position: relative;
+    top:20px;
+}
+
+
+form a{
+    color: rgb(209, 209, 209);
+}
+
+#recuperar{position: relative;
+left: 190px;
+top:85px;
+}
+#registrar{position: relative;
+    right:290px;
+    top:85px;
+}
+
+#regresar{ 
+    position: relative;
+    right:200px;
+    top: -470px;
+
+}
+
+.formulario2{
+
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color:#a5c4c47a;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: #EFEFEF;
+
+}
+.formulario2 input{width:200px;}
+
+#regresar2{
+
+    position: relative;
+    right:210px;
+    top: 45px;
+
+}
+
+.usuario2{position: relative;
+top:50px;
+
+}

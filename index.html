@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    
+
+    <title>login</title>
+</head>
+<body>
+
+    <div class="formulario" >
+         
+        <form action="" method="POST">
+
+            <div class="cabecera">
+            <h2>MyBlog</h2>
+                <a href="index.html">
+                    <img src="imagenes/login.png" alt="" height="150px">
+                </a>
+            </div>
+
+            <div class="usuario"> 
+                <h3><label for="user">UserName</h3> </label> 
+                <input type="text" placeholder="User"  required id="user"> 
+            </div>
+
+            <div class="pass" >
+                <h3> <label for="contraseña"> Password </label></h3>
+                <input type="password" placeholder="Pass"  id="contraseña" >
+            </div>   
+
+            <h3>Remember <input type="checkbox" >  </h3> 
+            
+
+            <!-- seccion de registro  -->
+
+            <a id="recuperar" href="recover.html">Remember password</a>
+
+            <a id="registrar" href="registro.html">Sign Up </a>
+
+            <div class="btn">
+                <input type="button" value="login" onclick='validarLog();' >
+            </div>
+
+        </form>
+
+    </div>
+        
+        <script src="validacion.js"></script>
+</body>
+
+
+</html>
+
+
